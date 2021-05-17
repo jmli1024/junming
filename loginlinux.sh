@@ -9,4 +9,5 @@ set timeout 300
 	\"*(yes/no)\" { send \"yes\r\"; exp_continue }
 	\"*password\" { send \"123123\r\"; exp_continue }
     }
-expect eof"
+
+interact"
