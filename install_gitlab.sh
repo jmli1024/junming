@@ -3,6 +3,8 @@
 
 # 定义gitlab域名
 DNS_NAME="gitlab.changyuan.com"
+USER_NAME="junming"
+USER_EMAIL="jmli1024@163.com"
 
 # 安装gitlab
 yum -y install policycoreutils openssh-server openssh-clients postfix
