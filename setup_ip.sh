@@ -30,11 +30,11 @@ EOF
 # 重启网卡，这里需要先确认一遍，再手动选择重启
 clear
 echo -e "\033[35;1m 请确认一下网卡配置是否正确，即将重启网卡…… \033[0m"
-sleep 2
+sleep 1
 echo "================================================"
 cat ${NET_PATH}${NET_NAME}
 echo "================================================"
-sleep 5
+sleep 3
 read -p "重启网卡，请输入 y，按其它任意键结束." COMFIRE
 if [ ${COMFIRE} == 'y' ];then
     systemctl restart network
